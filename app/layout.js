@@ -31,7 +31,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${display.variable} ${body.variable} ${mono.variable}`}>
+    <html lang="en" className={`Rs{display.variable} Rs{body.variable} Rs{mono.variable}`}>
       <body className="min-h-screen antialiased">{children}</body>
     </html>
   );

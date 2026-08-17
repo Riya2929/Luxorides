@@ -58,7 +58,7 @@ export default function VehicleCard({ car, onReserve }) {
         <div className="mt-5 flex items-center justify-between border-t border-obsidian-line pt-4">
           <div>
             <span className="meter text-lg text-gold-soft">
-              ${car.pricePerDay.toLocaleString()}
+              Rs {car.pricePerDay.toLocaleString()}
             </span>
             <span className="ml-1 font-body text-xs text-ivory-dim">
               / day
